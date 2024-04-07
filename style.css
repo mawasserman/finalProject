@@ -1,0 +1,30 @@
+body{
+    margin: 0px;
+}
+
+/* navbar css */
+nav{
+    padding: 3px;
+    border: 1px solid red;
+
+}
+
+/* header */
+header{
+    background-color: lightblue ;
+    display: flex;
+}
+
+
+
+/* cover image, guy on the path. img suppose to be at left with text at right when the screen is big */
+#coverimg{
+    border: 1px solid blueviolet;
+    width: 50%;
+}
+
+.boxheading{
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
