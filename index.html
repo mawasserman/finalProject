@@ -5,30 +5,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Baal Sheelah</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/0882f9805b.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!-- navbar html-->
     <nav>
-        <input type="search">
-        <a class="navbar pages">
-            <a src="">Home</a>
-            <a src="">About</a>
-            <a src="">Sources</a>
-            <a src="">Contact</a>
-        </div>
-
+        <input type="search" id="what">
+        <input type="button" id="search" value="Search">
+        <ul class="navbar pages">
+            <li class="navitem"><a href="index.html">Home</a></li>
+            <li class="navitem"><a href="about.html">About</a></li>
+            <li class="navitem"><a href="sources.html">Sources</a></li>
+            <li class="navitem"><a href="contact.html">Contact</a></li>
+        </ul>
+        </ul>
     </nav>
+    
     <!-- header -->
     <header>
         <img src="cara.png" alt="man with kipa walking towards a path" id="coverimg">
         <div class="boxheading">
             <h1 class="heading">BAAL SHEELAH</h1>
-            <h2 class="subheading">Where new beginnings find their path</h2>
+            <h2 class="subheading">Your guide for your new path</h2>
         </div>
     </header>
 
     <!-- content -->
-    <article>
+     <div class="cardcontainer">
+    <div class="card">
+    
+        <article>        
+            <i class="fa-solid fa-book-tanakh fa-2xl" style="color: #ffffff;"></i><br>
+            <a href="books.html" class="sections books">Books</a>
+        </article>
+    </div>
+
+    <div class="card">
+        <i class="fa-solid fa-menorah fa-2xl" style="color: #ffffff;"></i><br>
+        <article>
+            <a href="articles.html" class="sections articles">Religious articles</a>
+        </article>
+    </div>
+
+    <div class="card">
+        <i class="fa-solid fa-utensils fa-2xl" style="color: #ffffff;"></i><br>
+        <article>
+            <a href="food.html" class="sections food">Food</a>
+        </article>
+    </div>
+
+    <div class="card">
+        <i class="fa-solid fa-star-of-david fa-2xl" style="color: #ffffff;"></i><br>
+        <article>
+            <a href="holidays.html" class="sections holidays">Holidays</a>
+        </article>
+    </div>
+
+    <div class="card">
+        <i class="fa-solid fa-synagogue fa-2xl" style="color: #ffffff;"></i><br>
+        <article>
+            <a href="praying.html" class="sections praying">Praying</a>
+        </article>
+    </div>
+
+    <div class="card">
+        <i class="fa-solid fa-arrows-spin fa-2xl" style="color: #ffffff;"></i><br>
+        <article>
+            <a href="lifecycle.html" class="sections lifecycle">Life cycle</a>
+        </article>
+    </div>
+
+    <div class="card">
+        <i class="fa-solid fa-heart fa-2xl" style="color: #ffffff;"></i><br>
+        <article>
+            <a href="family.html" class="sections family">Family purity</a>
+        </article>
+    </div>
+    </div>
         <!-- <image></image> -->
         
         <!-- esse aqui ja tem que conectar com a database e blablabla -->
@@ -36,7 +89,21 @@
     </article>
 
     <!-- footer -->
-
+        <!-- footer -->
+   <footer id="footerall">
+    <ul class="footer pages"> 
+         <li><a href="books.html" class="sections books">Books</a></li>
+         <li><a href="articles.html" class="sections articles">Religious articles</a></li>
+         <li><a href="food.html" class="sections food">Food</a></li>
+         <li><a href="holidays.html" class="sections holidays">Holidays</a></li>
+         <li><a href="praying.html" class="sections praying">Praying</a></li>
+         <li><a href="lifecycle.html" class="sections lifecycle">Life cycle</a></li>
+         <li><a href="family.html" class="sections family">Family purity</a></li>
+     </ul>
+     <br>
+     <div id="myname">2024 Baal Sheelah - Marcella Wasserman</div>
+ 
+    </footer>
 
     <script src="script.js"></script>
 </body>
